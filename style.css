@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Satisfy', cursive;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin-inline: auto; */
+    /* margin: auto; */
+    /* text-align: center; */
+}
+
+.header{
+    /* font-size: 1.5rem; */
+    text-align: center;
+    margin: 1rem, 0;
+    margin-bottom: 5rem;
+    padding: 1rem;
+    background-color: #2D2424;
+    color: white;
+}
+
+textarea {
+    display: block;
+    height: 20vh;
+    margin: auto;
+    width: 50%;
+    padding: 1rem;
+}
+#txt-input, #output{
+    font-size: 1.2rem;
+}
+
+button {
+    width: 200px;
+    border: none;
+    background-color: #5C3D2E;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 1rem;
+    margin-bottom: 2rem;
+}
+
+.output-hd{
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    /* text-align: left; */
+}
